@@ -4,70 +4,99 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/79e602e837.js" crossorigin="anonymous"></script>    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,500;0,8..60,600;1,8..60,200;1,8..60,300;1,8..60,500;1,8..60,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/webfontkit-brand.css">
     <style type="text/css">
-        #linktree {
-            font-family: "Source Serif Pro", "Garamond", Courier, serif;
-            background-image: url(img/computer-desk-forest-teal.png);
+        #starthere {
+            font-family: "Source Serif 4", Garamond, Courier, serif;
+            font-size: large;
+            font-weight: 300;
+            background: radial-gradient(circle at top left, #febfa2, #f76201, #bc673d);
         }
-        #linktree h1,h2,h3,h4,h5,h6 {
+        #starthere h1,h2,h3,h4,h5,h6 {
+            white-space: normal;
+            font-family: "vvds_halau_serifthin", Garamond, Courier, serif;
+        }
+        #starthere .fa-wndx-social-icons {
+            color: #fdfaf5;
+        }
+        #starthere .btn-info {
             font-family: "saveursans-regularregular", Arial, sans-serif;
+            font-size: medium;
+            white-space: normal;
+            color:#2D5A7A;background-color:#fdfaf5;border-color:#f76201;
+            transition: border 0.2s ease, font-size .5s ease;
         }
-        #linktree .fa-wndx-social-icons {
-            color: #42EADD;
-        }
-        #linktree .btn-info {
-            color:#2D5A7A;background-color:#42EADD;border-color:#005a5a;
+        #starthere .btn-info:hover {
+            font-size: larger;
+            border: 5px solid #febfa2;
+            cursor: pointer;
         }
     </style>
 
 
     <!-- ((1)) - Put your brand name or whatever you want -->
-    <title>@wndxlori | Linktree</title>
+    <title>Lori Olson | The WNDX Group, Inc</title>
 </head>
-<body id="linktree">
+<body id="starthere">
 
-<div class="container">
+<div class="container" style="color:#fdfaf5;padding-left:10px;padding-right:10px">
     <div class="row justify-content-center mt-4">
         <!-- ((2)) - Put your image / icon here -->
         <img alt="Lori Olson" class="rounded-circle img-thumbnail border border-info" src="img/1avatar.jpg" style="height:96px; width:96px;">
     </div>
-    <div class="row justify-content-center mt-3 mb-3">
+    <div class="row justify-content-center font-weight-bold mt-3 mb-2">
         <!-- ((3)) - Put your brand name or whatever you want -->
-        <h3 style="color:#F76201;">@wndxlori</h3>
+        @wndxlori
     </div>
-    <div class="row justify-content-center mx-2">
+    <div class="row justify-content-center font-italic ml-1 mr-1">
+        CEO of The WNDX Group, Inc.
+    </div>
+    <div class="row justify-content-center ml-1 mb-5 mr-1">
+        <span>Founder &amp CIO @ WNDX School of Mobile Apps</span>
+    </div>
+    <div class="row justify-content-center font-smaller ml-1 mr-1">
         <!-- ((4)) - Buttons blocks - you can add as many as you want -->
-        <a href="https://www.youtube.com/watch?v=SCF4Ug1h1rg&list=PLjaSTvZn0xob463I0-43w4rI2MX8CV1Hf" class="btn btn-info btn-lg btn-block">12 Days of Mobile App Tech Christmas</a>
-        <a href="https://www.6packapps.io/freedownload" class="btn btn-info btn-lg btn-block">6 Vital Steps from Idea to App Launch Success</a>
-        <a href="https://us02web.zoom.us/meeting/register/tZcode6rrj0tHd24sDC_0g3Uwxeb2JtSvWcv" class="btn btn-info btn-lg btn-block">No Code - Can you build an app in an hour? - Register Here</a>
-        <a href="https://wndxschool.ck.page/bd51551808" class="btn btn-info btn-lg btn-block">Lori's Newsletter</a>
-        <a href="https://wndx.school" class="btn btn-info btn-lg btn-block">WNDX School of Mobile Apps</a>
-        <a href="https://www.wndx.com/" class="btn btn-info btn-lg btn-block">The WNDX Group</a>
-        <a href="https://www.wndx.com/blog" class="btn btn-info btn-lg btn-block">Lori's Blog</a>
+        <h4><i class="fa-solid fa-rocket fa-wndx-social-icons"></i> For Entrepreneurs <i class="fa fa-arrow-circle-down fa-wndx-social-icons"></i></h4>
+        <a href="https://www.6packapps.io/freedownload" class="btn btn-info btn-lg text-wrap btn-block"><i class="fa-solid fa-file-arrow-down"></i> The 6 Vital Steps from Idea to App Launch Success</a>
+<!--        <a href="https://us02web.zoom.us/meeting/register/tZcode6rrj0tHd24sDC_0g3Uwxeb2JtSvWcv" class="btn btn-info btn-lg btn-block">No Code - Can you build an app in an hour? - Register Here</a>-->
+
+        <h4 class="mt-5"><i class="fa-solid fa-laptop-code fa-wndx-social-icons"></i> For Developers <i class="fa fa-arrow-circle-down fa-wndx-social-icons"></i></h4>
+        <a href="http://rubymotion.school" class="btn btn-info btn-lg btn-block"><i class="fa-solid fa-mobile"></i> Learn Mobile App Dev with RubyMotion</a>
+        <a href="http://dragonruby.school" class="btn btn-info btn-lg btn-block"><i class="fa-solid fa-gamepad"></i> Learn Game Dev with DragonRuby Game Toolkit</a>
+        <a href="https://wndxschool.ck.page/bd51551808" class="btn btn-info btn-lg btn-block"><i class="fa-solid fa-inbox"></i> Get the latest RubyMotion &amp; DragonRuby News in your inbox</a>
+
+        <h4 class="mt-5"><i class="fa-solid fa-person-chalkboard fa-wndx-social-icons"></i> For Coaches, Community Leaders, Tech Incubators <i class="fa fa-arrow-circle-down fa-wndx-social-icons"></i></h4>
+        <a href="mailto:hello@wndx.com" class="btn btn-info btn-lg btn-block"><i class="fa-solid fa-envelope-circle-check"></i>  Workshop or Collaboration inquiries: email hello@wndx.com</a>
+
+        <h4 class="mt-5"> <i class="fa-solid fa-book fa-wndx-social-icons"></i> Purchase <i class="fa fa-arrow-circle-down fa-wndx-social-icons"></i></h4>
         <a href="dbdb-amazon.html" class="btn btn-info btn-lg btn-block">
-            Best Selling <strong>Dream Big DO BIGGER</strong> book!
+            My <i class="fa-brands fa-amazon"></i> <em>Best Selling</em> Dream Big DO BIGGER <i class="fa-solid fa-book"></i> book!
         </a>
     </div>
 
     <div class="row justify-content-center mt-4">
         <ul class="list-unstyled">
-            <!-- ((5)) - Social icon blocks - you can add as many as you want -->
-            <li class="list-inline-item"><a  href="https://www.instagram.com/wndxlori" rel="nofollow noopener" target="_blank"><i class="fab fa-2x fa-instagram fa-wndx-social-icons"></i></a></li>
-            <li class="list-inline-item"><a  href="https://www.linkedin.com/in/loriolson/" rel="nofollow noopener" target="_blank"><i class="fab fa-2x fa-linkedin fa-wndx-social-icons"></i></a></li>
-            <li class="list-inline-item"><a  href="https://ruby.social/@wndxlori" rel="nofollow noopener" target="_blank"><i class="fab fa-2x fa-mastodon fa-wndx-social-icons"></i></a></li>
-            <li class="list-inline-item"><a  href="https://www.facebook.com/wndx.lori.olson" rel="nofollow noopener" target="_blank"><i class="fab fa-2x fa-facebook fa-wndx-social-icons"></i></a></li>
-            <li class="list-inline-item"><a  href="https://www.youtube.com/@WNDX" rel="nofollow noopener" target="_blank"><i class="fab fa-2x fa-youtube fa-wndx-social-icons"></i></a></li>
+            <!-- ((6)) - Social icon blocks - you can add as many as you want -->
+            <li class="list-inline-item"><a  href="https://www.instagram.com/wndxlori" rel="nofollow noopener" target="_blank"><i class="fa-brands fa-2x fa-square-instagram fa-wndx-social-icons"></i></a></li>
+            <li class="list-inline-item"><a  href="https://www.linkedin.com/in/loriolson/" rel="nofollow noopener" target="_blank"><i class="fa-brands fa-2x fa-linkedin fa-wndx-social-icons"></i></a></li>
+            <li class="list-inline-item"><a  href="https://ruby.social/@wndxlori" rel="nofollow noopener" target="_blank"><i class="fa-brands fa-2x fa-mastodon fa-wndx-social-icons"></i></a></li>
+            <li class="list-inline-item"><a  href="https://www.facebook.com/wndx.lori.olson" rel="nofollow noopener" target="_blank"><i class="fa-brands fa-2x fa-square-facebook fa-wndx-social-icons"></i></a></li>
+            <li class="list-inline-item"><a  href="https://www.youtube.com/@WNDX" rel="nofollow noopener" target="_blank"><i class="fa-brands fa-2x fa-square-youtube fa-wndx-social-icons"></i></a></li>
+            <li class="list-inline-item"><a  href="https://www.wndx.com/blog" rel="nofollow noopener" target="_blank"><i class="fa fa-2x fa-solid fa-pen-to-square fa-wndx-social-icons"></i></a></li>
 <!--            <li class="list-inline-item"><a  href="https://www.pinterest.com" rel="nofollow noopener" target="_blank"><i class="fab fa-pinterest text-secondary"></i></a></li>-->
         </ul>
     </div>
-
-
-</div>
-
+    <div class="row justify-content-center mt-4">
+        <a href="https://wndx.com" rel="nofollow noopener" target="_blank"><img alt="WNDX Group Logo" src="/img/logos/BrandedRuby.png" style="width:96px;"></a>
+    </div>
+    </div>
 
 <!-- Bootstrap core JavaScript -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
